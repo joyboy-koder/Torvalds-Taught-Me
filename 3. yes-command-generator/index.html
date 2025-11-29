@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YES Command</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="intro">
+        <span id="introLogo">J</span>
+    </div>
+    
+    
+    <div id="terminal" id="main" class="hidden">
+        <p style="padding: 1em;">This project was built to demonstrate an amazing function of the 'yes' command in the linux
+            terminal...
+            <br>The 'yes'
+            command repeats any text you type forever until you stop it. <br>How it works: <br>> When you type <br>yes
+            hello
+            <br>It will keep printing: <br>hello <br>hello <br>hello <br>hello <br>hello <br>... <br>Consider this
+            visualization
+            that the 'yes' command is built in, Now type in anything and play around with the button!
+        </p>
+        <input id="wordInput" placeholder="Type a word...">
+        <button onclick="startYes()">Start</button>
+        <button onclick="stopYes()">Stop</button>
+    
+        <div id="output"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

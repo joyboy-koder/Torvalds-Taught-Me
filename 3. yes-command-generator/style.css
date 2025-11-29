@@ -1,0 +1,123 @@
+body {
+    background: black;
+    color: green;
+    font-family: monospace;
+}
+
+#terminal {
+    width: 400px;
+    margin: 40px auto;
+}
+
+#output {
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+
+
+button {
+    padding: 0.5em 2.5em;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+    cursor: pointer;
+    background-color: navy;
+}
+
+input {
+    outline: none;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.font-gothic {
+    font-family: 'UnifrakturCook', 'Old English Text MT', serif;
+}
+
+/* Smooth fade animations */
+.fade-in {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+
+
+#intro {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    z-index: 50;
+}
+
+
+#introLogo {
+    font-family: 'UnifrakturCook', sans-serif;
+    font-size: 20rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+
+@media (max-width: 600px) {
+    #introLogo {
+        font-size: 5rem;
+    }
+}

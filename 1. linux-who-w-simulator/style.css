@@ -1,0 +1,90 @@
+body {
+    background-color: #000;
+    color: #00ff66;
+    font-family: "Courier New", monospace;
+    padding: 20px;
+}
+
+#terminal-el {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+.command {
+    color: #00bfff;
+}
+
+.prompt {
+    color: #00ff66;
+}
+
+input{
+    background: transparent;
+    border: none;
+    color: #00ff66;
+    font-family: inherit;
+    font-size: 1em;
+    width: 80%;
+    outline: none;
+}
+
+.output {
+    margin-left: 1.5em;
+}
+
+.font-gothic {
+    font-family: 'UnifrakturCook', 'Old English Text MT', serif;
+}
+
+/* Smooth fade animations */
+.fade-in {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+
+
+#intro {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    z-index: 50;
+}
+
+
+#introLogo {
+    font-family: 'UnifrakturCook', sans-serif;
+    font-size: 20rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
