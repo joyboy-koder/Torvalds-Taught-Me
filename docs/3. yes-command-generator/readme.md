@@ -76,7 +76,7 @@ yes | sudo apt install package
 yes | sudo dnf install package
 ```
 
-live demo > (https://joyboy-koder.github.io/yes-Command-Generator/)
+live demo > (https://joyboy-koder.github.io/Torvalds-Taught-Me/)
 
 ## Used for:
 
