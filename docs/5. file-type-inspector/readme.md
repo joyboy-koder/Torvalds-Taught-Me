@@ -53,5 +53,6 @@ This project is one part of my **Linux Learning Series**, where I recreate Linux
 
 More projects coming soon!  
 
-## Live Demo (https://joyboy-koder.github.io/file-type-inspector/)
+## Live Demo (https://joyboy-koder.github.io/Torvalds-Taught-Me/)
+Select this project from the list and enjoy!
 
