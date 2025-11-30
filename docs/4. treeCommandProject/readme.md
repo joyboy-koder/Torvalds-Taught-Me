@@ -52,7 +52,7 @@ The goals are:
 
 ---
 
-## Live Demo(https://joyboy-koder.github.io/tree-Command-Visualizer/)
+## Live Demo(https://joyboy-koder.github.io/Torvalds-Taught-Me/)
 
 ## 🔗 Part of My Linux Journey
 
