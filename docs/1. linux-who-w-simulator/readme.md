@@ -37,9 +37,10 @@ It currently features the following commands:
 
 ## How to Use
 
-1. Open (https://joyboy-koder.github.io/Linux-Who-W-Simulator/) in your browser.  
-2. Type a command in the terminal input (e.g., `who`, `w`, `help`).  
-3. Press **Enter** to execute the command and see the output. 
+1. Open (https://joyboy-koder.github.io/Torvalds-Taught-Me/) in your browser.
+2. Select and open this project from the list. 
+3. Type a command in the terminal input (e.g., `who`, `w`, `help`).  
+4. Press **Enter** to execute the command and see the output. 
 
 ---
 
